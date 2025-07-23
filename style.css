@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #0d0d0d;
+    color: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 0;
+  }
+  
+
+  header {
+    background-color: #121212;
+    padding: 60px 0;
+    border-bottom: 1px solid #333;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .profile-pic img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #6b4f2c;
+  }
+  
+  .intro h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+  }
+  
+  .intro p {
+    font-size: 1.2em;
+    color: #aaa;
+  }
+  
+
+  section h2 {
+    font-size: 2em;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6b4f2c;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .about p,
+  .projects p,
+  .contact p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #ccc;
+  }
+  
+
+  .project-card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-left: 5px solid #6b4f2c;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+  }
+  
+  .project-card h3 {
+    color: #e0c9a6;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6b4f2c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #4d3620;
+  }
+
+  .contact a {
+    color: #e0c9a6;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #121212;
+    color: #555;
+    font-size: 0.9em;
+    border-top: 1px solid #333;
+  }
+  
